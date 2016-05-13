@@ -144,6 +144,8 @@ fieldset.form-fieldset {
 /* Footer */
 footer.page-footer {
   padding-bottom: 200px; }
+  footer.page-footer .footer-logo {
+    width: 50px; }
 
 /*----------------------------------------------------------------------------------------------------------------------- *\
  STATES
