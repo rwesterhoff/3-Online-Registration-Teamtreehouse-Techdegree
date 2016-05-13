@@ -1,4 +1,4 @@
-/*----------------------------------------------------------------------------------------------------------------------- *\
+    /*----------------------------------------------------------------------------------------------------------------------- *\
  BASE
 \*----------------------------------------------------------------------------------------------------------------------- */
 /* Reset */
@@ -40,7 +40,7 @@ label {
 /* Input types */
 select,
 textarea,
-input {
+input:not([type="date"]) {
   border: none;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -71,6 +71,22 @@ select {
   input[type='date']:last-child,
   select:last-child {
     margin-bottom: 0; }
+
+input[type="date"] {
+  background: url(../Images/icon-calendar.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: right 12px center;
+  background-size: 16px; }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    color: transparent;
+    background-color: transparent;
+    height: 8px;
+    position: right;
+    width: 8px;
+    z-index: 0; }
+  input[type="date"]::-webkit-inner-spin-button {
+    display: none; }
 
 select {
   background: url(../Images/icon-arrow-dwn.svg);
@@ -258,6 +274,14 @@ textarea:hover {
   input[type='date']:hover::placeholder,
   textarea:hover::placeholder {
     color: white; }
+
+input[type="date"]:hover {
+  background: url(../Images/icon-calendar-hover.svg);
+  background-color: #91979D;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: right 12px center;
+  background-size: 16px; }
 
 select:hover {
   background: url(../Images/icon-arrow-dwn-hover.svg);
