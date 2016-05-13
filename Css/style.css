@@ -316,18 +316,6 @@ input[type='checkbox']:checked {
     background-size: 10px; }
 
 /* Validation */
-.required:invalid, .required:out-of-range {
-  border-color: red;
-  background: #FEDFE0; }
-  .required:invalid::-webkit-input-placeholder, .required:out-of-range::-webkit-input-placeholder {
-    color: red; }
-  .required:invalid::-moz-placeholder, .required:out-of-range::-moz-placeholder {
-    color: red; }
-  .required:invalid:-ms-input-placeholder, .required:out-of-range:-ms-input-placeholder {
-    color: red; }
-  .required:invalid::placeholder, .required:out-of-range::placeholder {
-    color: red; }
-
 /*----------------------------------------------------------------------------------------------------------------------- *\
  THEME
 \*----------------------------------------------------------------------------------------------------------------------- */
