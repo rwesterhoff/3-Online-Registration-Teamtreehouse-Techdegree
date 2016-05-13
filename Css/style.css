@@ -40,7 +40,7 @@ label {
 /* Input types */
 select,
 textarea,
-input:not([type="date"]) {
+input {
   border: none;
   -webkit-appearance: none;
      -moz-appearance: none;
