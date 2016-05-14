@@ -37,6 +37,10 @@ label {
   display: inline-block;
   margin-bottom: 12px; }
 
+p.descriptive-label {
+  color: #212B34;
+  margin: 0 0 12px 0; }
+
 /* Input types */
 select,
 textarea,
@@ -100,7 +104,7 @@ input:not([type='submit']) {
   border: 2px solid #EBECEE;
   background-color: #EBECEE; }
 
-input#zip-code {
+input#habitat-zip-code {
   width: 150px; }
 
 /* Radio's and checkboxes */
@@ -112,9 +116,9 @@ input[type='checkbox'] {
   input[type='radio'] + label,
   input[type='checkbox'] + label {
     position: relative;
-    top: -8px;
-    margin-bottom: 2px;
-    margin-left: 8px; }
+    top: -5px;
+    margin-bottom: 10px;
+    margin-left: 10px; }
 
 input[type='radio'] {
   border-radius: 100%; }
@@ -448,6 +452,9 @@ section.form-intro p {
   fieldset.form-fieldset #radio-group {
     float: left;
     width: 50%; }
+  fieldset.form-fieldset #checkbox-group,
+  fieldset.form-fieldset #radio-group {
+    margin-bottom: 0; }
   fieldset.form-fieldset #newsletter-group:after,
   fieldset.form-fieldset #contact-group:after {
     display: table;
