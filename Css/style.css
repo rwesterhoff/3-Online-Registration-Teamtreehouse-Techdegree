@@ -89,7 +89,7 @@ input[type="date"] {
   background-position: center;
   background-position: right 12px center;
   background-size: 16px;
-  vertical-align: bottom; }
+  padding: 13px 14px !important; }
   input[type="date"]::-webkit-calendar-picker-indicator {
     color: transparent;
     background-color: transparent;
