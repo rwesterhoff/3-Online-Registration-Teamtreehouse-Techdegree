@@ -23,13 +23,15 @@ legend {
   color: #212B34; }
 
 h2 {
-  margin-bottom: 12px; }
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem; }
 
 p {
   color: #91979D; }
 
 legend {
   margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   display: inline-block;
   width: 100%; }
   legend:before {
@@ -38,15 +40,18 @@ legend {
     height: 2px;
     width: 100%;
     background-color: #212B34;
-    margin-bottom: 24px; }
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem; }
 
 label {
   display: inline-block;
-  margin-bottom: 12px; }
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem; }
 
 p.descriptive-label {
   color: #212B34;
-  margin: 0 0 12px 0; }
+  margin: 0 0 12px 0;
+  margin: 0 0 0.75rem 0; }
 
 /* Input types */
 select,
@@ -73,7 +78,9 @@ input[type='email'],
 input[type='date'],
 select {
   margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   padding: 0 14px;
+  padding: 0 0.875rem;
   color: #91979D; }
   input[type='number']:last-child,
   input[type='text']:last-child,
@@ -89,7 +96,8 @@ input[type="date"] {
   background-position: center;
   background-position: right 12px center;
   background-size: 16px;
-  padding: 13px 14px !important; }
+  padding: 13px 14px;
+  padding: 0.8125rem 0.875rem; }
   input[type="date"]::-webkit-calendar-picker-indicator {
     color: transparent;
     background-color: transparent;
@@ -126,7 +134,9 @@ input[type='checkbox'] {
     position: relative;
     top: -5px;
     margin-bottom: 10px;
-    margin-left: 10px; }
+    margin-bottom: 0.625rem;
+    margin-left: 10px;
+    margin-left: 0.625rem; }
 
 input[type='radio'] {
   border-radius: 100%; }
@@ -134,6 +144,7 @@ input[type='radio'] {
 /* Comment box */
 textarea {
   padding: 14px;
+  padding: 0.875rem;
   height: 100px; }
 
 /* Submit button */
@@ -151,24 +162,29 @@ header.page-header {
 
 /* Intro */
 section.form-intro {
-  padding-bottom: 24px; }
+  padding-bottom: 24px;
+  padding-bottom: 1.5rem; }
 
 /* Form */
 form.form-wrapper {
   padding-top: 3px;
+  padding-top: 0.1875rem;
   border-top: 4px solid #212B34; }
 
 /* Form fieldsets */
 fieldset.form-fieldset {
-  padding-bottom: 32px; }
+  padding-bottom: 32px;
+  padding-bottom: 2rem; }
   fieldset.form-fieldset div[id$='-group'] {
-    margin-bottom: 16px; }
+    margin-bottom: 16px;
+    margin-bottom: 1rem; }
     fieldset.form-fieldset div[id$='-group']:last-child {
       margin-bottom: 0; }
 
 /* Footer */
 footer.page-footer {
-  padding-bottom: 200px; }
+  padding-bottom: 200px;
+  padding-bottom: 12.5rem; }
   footer.page-footer .footer-logo {
     width: 50px; }
 
@@ -205,7 +221,8 @@ input[type='radio']:checked,
 input[type='checkbox']:checked,
 select:focus,
 input:focus {
-  padding: 0 14px; }
+  padding: 0 14px;
+  padding: 0 0.875rem; }
 
 input[type='radio']:checked,
 input[type='checkbox']:checked,
@@ -214,7 +231,8 @@ input[type='checkbox']:focus {
   padding: 0; }
 
 textarea:focus {
-  padding: 14px; }
+  padding: 14px;
+  padding: 0.875rem; }
 
 input[type='submit']:focus {
   outline: 0;
@@ -330,7 +348,7 @@ input[type='checkbox']:checked {
 \*----------------------------------------------------------------------------------------------------------------------- */
 html {
   font-family: "Merriweather", serif;
-  font-size: 1px;
+  font-size: 16px;
   /* Background pattern + fallback */
   background: #FDFDFD;
   background: -webkit-repeating-linear-gradient(315deg, #FDFDFD, #FDFDFD 0.15%, white 0.16%, white 0.3%);
@@ -340,13 +358,15 @@ html {
   -webkit-font-smoothing: antialiased; }
 
 h1 {
-  font-size: 18em;
+  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   text-transform: uppercase; }
 
 h2,
 legend {
-  font-size: 18em;
+  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600; }
 
 p,
@@ -355,7 +375,8 @@ input,
 select,
 option,
 textarea {
-  font-size: 14em;
+  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 100; }
 
 input,
@@ -365,32 +386,37 @@ textarea {
   font-family: "Merriweather", serif; }
 
 input::-webkit-input-placeholder {
-  font-size: 12rem;
+  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 100;
   font-style: italic;
   text-align: right; }
 
 input::-moz-placeholder {
-  font-size: 12rem;
+  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 100;
   font-style: italic;
   text-align: right; }
 
 input:-ms-input-placeholder {
-  font-size: 12rem;
+  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 100;
   font-style: italic;
   text-align: right; }
 
 input::placeholder {
-  font-size: 12rem;
+  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 100;
   font-style: italic;
   text-align: right; }
 
 input[type='submit'] {
   font-family: "Merriweather", serif;
-  font-size: 18em;
+  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
   height: 60px;
   color: white; }
@@ -404,10 +430,12 @@ footer {
 \*----------------------------------------------------------------------------------------------------------------------- */
 /* Mobile devices and up*/
 main.container {
-  padding: 12px; }
+  padding: 12px;
+  padding: 0.75rem; }
 
 header.page-header {
   padding: 24px 0;
+  padding: 1.5rem 0;
   text-align: center; }
 
 section.form-intro h2,
@@ -419,20 +447,25 @@ section.form-intro p {
   main.container {
     width: 600px;
     margin: 0 auto;
-    padding: 40px 0 12px 0; }
+    padding: 40px 0 12px 0;
+    padding: 2.5rem 0 0.75rem 0; }
 
   .form-intro h2 {
     font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 600; }
 
   fieldset.form-fieldset legend:before {
-    margin-bottom: 48px; }
+    margin-bottom: 48px;
+    margin-bottom: 3rem; }
   fieldset.form-fieldset:first-child {
-    padding-bottom: 48px; }
+    padding-bottom: 48px;
+    padding-bottom: 3rem; }
     fieldset.form-fieldset:first-child label {
       float: left;
       width: 25%;
-      margin-top: 16px; }
+      margin-top: 16px;
+      margin-top: 1rem; }
     fieldset.form-fieldset:first-child input,
     fieldset.form-fieldset:first-child select {
       float: left;
@@ -446,12 +479,15 @@ section.form-intro p {
   main.container {
     width: 960px;
     margin: 0 auto;
-    padding: 40px 0 12px 0; }
+    padding: 40px 0 12px 0;
+    padding: 2.5rem 0 0.75rem 0; }
 
   fieldset.form-fieldset .grid-container .row:first-child {
-    padding-right: 24px; }
+    padding-right: 24px;
+    padding-right: 1.5rem; }
   fieldset.form-fieldset .grid-container .row:last-child {
-    padding-left: 24px; }
+    padding-left: 24px;
+    padding-left: 1.5rem; }
   fieldset.form-fieldset #personal-info,
   fieldset.form-fieldset #habitat-info,
   fieldset.form-fieldset #checkbox-group,
