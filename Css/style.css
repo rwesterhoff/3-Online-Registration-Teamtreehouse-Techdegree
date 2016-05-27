@@ -96,8 +96,8 @@ input[type="date"] {
   background-position: center;
   background-position: right 12px center;
   background-size: 16px;
-  padding: 13px 14px;
-  padding: 0.8125rem 0.875rem; }
+  padding: 13px 14px !important;
+  padding: 0.8125rem 0.875rem !important; }
   input[type="date"]::-webkit-calendar-picker-indicator {
     color: transparent;
     background-color: transparent;
